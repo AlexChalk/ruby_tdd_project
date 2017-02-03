@@ -84,21 +84,32 @@ describe "multiply" do
   end
 
   it "multiplies several numbers" do
-    #expect(multiply(15, 16, -234, 586.22)).to eq(-32_922_115.2)
-    expect(multiply(15, 16, -234)).to eq(-56_160)
+    expect(multiply(15, 16, -234, 586.22)).to eq(-32_922_115.2)
   end
   
 end
 
-describe "#power" do
-  it "raises one number to the power of another number"
+describe "power" do
+  it "raises one number to the power of another number" do
+    expect(power(4, 19)).to eq(274_877_906_944)
+  end
 end
 
 # http://en.wikipedia.org/wiki/Factorial
-describe "#factorial" do
-  it "computes the factorial of 0"
-  it "computes the factorial of 1"
-  it "computes the factorial of 2"
-  it "computes the factorial of 5"
-  it "computes the factorial of 10"
+describe "factorial" do
+  it "computes the factorial of 0" do
+    expect(factorial(0)).to eq(1)
+  end
+  it "computes the factorial of 1" do
+    expect(factorial(1)).to eq(1)
+  end
+  it "computes the factorial of 2" do
+    expect(factorial(2)).to eq(2)
+  end
+  it "computes the factorial of 5" do
+    expect(factorial(5)).to eq(120)
+  end
+  it "computes the factorial of 10" do
+    expect(factorial(10)).to eq(3_628_800)
+  end
 end
