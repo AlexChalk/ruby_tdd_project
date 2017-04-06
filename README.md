@@ -4,7 +4,7 @@ This project was my first exposure to TDD—I was given the simple task of makin
 
 ## Getting started
 
-If you want to try the project yourself, naviagate to [this repo](https://github.com/TheOdinProject/learn_ruby) and follow the instructions in the README.md file. 
+If you want to try the project yourself, navigate to [this repo](https://github.com/TheOdinProject/learn_ruby) and follow the instructions in the README.md file. 
 
 ## Additional Notes
 
